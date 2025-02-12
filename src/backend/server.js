@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://basipek57:<71YKmQyYT0DoFXAr>@cluster0.gua1c.mongodb.net/?retryWrites=true&w=majority&registration-app=Cluster0"
+  "mongodb+srv://ipekbas:3ypL29u5ULzYCp26@cluster0.gua1c.mongodb.net/?retryWrites=true&w=majority"
 );
 
 app.post("/register", async (req, res) => {
